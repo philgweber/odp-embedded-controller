@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787941634223,
+  "lastUpdate": 1787945285618,
   "repoUrl": "https://github.com/philgweber/odp-embedded-controller",
   "entries": {
     "dev-npcx": [
@@ -653,6 +653,36 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/philgweber/odp-embedded-controller/commit/fe4a8be5feefa008c4ad71e6787655ff84c2f105"
         },
         "date": 1787941606065,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Binary Size",
+            "value": 54.7,
+            "unit": "KiB",
+            "extra": "RAM Size: 5.10 KiB\nDependency Count: 319\nVersion: rustc 1.98.0 (88d9e12ae 2026-08-18)"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "philweber@microsoft.com",
+            "name": "Phil Weber",
+            "username": "philgweber"
+          },
+          "committer": {
+            "email": "philweber@microsoft.com",
+            "name": "Phil Weber",
+            "username": "philgweber"
+          },
+          "distinct": true,
+          "id": "f321587208bcaf4d929ed9a03db525152b7f4855",
+          "message": "Address EC specification review feedback\n\nRepair the restructured mdBook navigation and local image links. Clean up the HID descriptor sources so they remain valid Waratah/TOML and correct the reviewed report types and documentation text.\n\nAssisted-by: GitHub Copilot:gpt-5.6-sol\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-08-28T12:25:22-07:00",
+          "tree_id": "220540c795f548a076aeb0b4d178fe54d9165695",
+          "url": "https://github.com/philgweber/odp-embedded-controller/commit/f321587208bcaf4d929ed9a03db525152b7f4855"
+        },
+        "date": 1787945285105,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
