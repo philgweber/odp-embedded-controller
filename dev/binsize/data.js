@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787869704286,
+  "lastUpdate": 1787941606653,
   "repoUrl": "https://github.com/philgweber/odp-embedded-controller",
   "entries": {
     "dev-npcx": [
@@ -623,6 +623,36 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/philgweber/odp-embedded-controller/commit/a018ff0ca21ac95c84b3d3559bda0d11962a0344"
         },
         "date": 1787869668164,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Binary Size",
+            "value": 54.7,
+            "unit": "KiB",
+            "extra": "RAM Size: 5.10 KiB\nDependency Count: 319\nVersion: rustc 1.98.0 (88d9e12ae 2026-08-18)"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "philweber@microsoft.com",
+            "name": "Phil Weber",
+            "username": "philgweber"
+          },
+          "committer": {
+            "email": "philweber@microsoft.com",
+            "name": "Phil Weber",
+            "username": "philgweber"
+          },
+          "distinct": true,
+          "id": "fe4a8be5feefa008c4ad71e6787655ff84c2f105",
+          "message": "Restructured the EC spec to include HID",
+          "timestamp": "2026-08-28T11:24:45-07:00",
+          "tree_id": "42ba58b4bff94403429a752b1ed9c908a81000b9",
+          "url": "https://github.com/philgweber/odp-embedded-controller/commit/fe4a8be5feefa008c4ad71e6787655ff84c2f105"
+        },
+        "date": 1787941606065,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
