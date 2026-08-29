@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788018945486,
+  "lastUpdate": 1788018959715,
   "repoUrl": "https://github.com/philgweber/odp-embedded-controller",
   "entries": {
     "dev-npcx": [
@@ -1977,6 +1977,36 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/philgweber/odp-embedded-controller/commit/f321587208bcaf4d929ed9a03db525152b7f4855"
         },
         "date": 1787945294965,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Binary Size",
+            "value": 71.03,
+            "unit": "KiB",
+            "extra": "RAM Size: 14.00 KiB\nDependency Count: 334\nVersion: rustc 1.98.0 (88d9e12ae 2026-08-18)"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "philweber@microsoft.com",
+            "name": "Phil Weber",
+            "username": "philgweber"
+          },
+          "committer": {
+            "email": "philweber@microsoft.com",
+            "name": "Phil Weber",
+            "username": "philgweber"
+          },
+          "distinct": true,
+          "id": "6b8a3aca6b6a0f7ada62c5af741b380f10131121",
+          "message": "Fix flow diagrams and missing media",
+          "timestamp": "2026-08-29T08:53:53-07:00",
+          "tree_id": "1aec40a98b43f35d7127a48014d4f4354d2345a9",
+          "url": "https://github.com/philgweber/odp-embedded-controller/commit/6b8a3aca6b6a0f7ada62c5af741b380f10131121"
+        },
+        "date": 1788018957948,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
