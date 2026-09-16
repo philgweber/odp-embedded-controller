@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789529513903,
+  "lastUpdate": 1789530123316,
   "repoUrl": "https://github.com/philgweber/odp-embedded-controller",
   "entries": {
     "dev-npcx": [
@@ -803,6 +803,36 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/philgweber/odp-embedded-controller/commit/074cc85629e8bffe0dc21a642a4a5fab49a06b4e"
         },
         "date": 1789529513165,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Binary Size",
+            "value": 54.71,
+            "unit": "KiB",
+            "extra": "RAM Size: 5.10 KiB\nDependency Count: 319\nVersion: rustc 1.98.1 (48a229cea 2026-09-01)"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "philweber@microsoft.com",
+            "name": "philgweber",
+            "username": "philgweber"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "997cafdbb1925784612921ec20bbbe4b0b088cd8",
+          "message": "Merge branch 'OpenDevicePartnership:main' into main",
+          "timestamp": "2026-09-15T20:40:36-07:00",
+          "tree_id": "037ec76ea89c39dd1a9a9e6d89a3571f3bf10436",
+          "url": "https://github.com/philgweber/odp-embedded-controller/commit/997cafdbb1925784612921ec20bbbe4b0b088cd8"
+        },
+        "date": 1789530122559,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
