@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789529256234,
+  "lastUpdate": 1789529275917,
   "repoUrl": "https://github.com/philgweber/odp-embedded-controller",
   "entries": {
     "dev-npcx": [
@@ -2127,6 +2127,36 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/philgweber/odp-embedded-controller/commit/a39b80c477cfb788d64bba0b7f8fdbbf52052849"
         },
         "date": 1789528213576,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Binary Size",
+            "value": 70.99,
+            "unit": "KiB",
+            "extra": "RAM Size: 14.00 KiB\nDependency Count: 334\nVersion: rustc 1.98.1 (48a229cea 2026-09-01)"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pgweber.mail@gmail.com",
+            "name": "pgweber",
+            "username": "pgweber"
+          },
+          "committer": {
+            "email": "pgweber.mail@gmail.com",
+            "name": "pgweber",
+            "username": "pgweber"
+          },
+          "distinct": true,
+          "id": "302c8648b5fcb251997ceddc71fd69fb9c9a68cf",
+          "message": "Updated to match latest docx documentation",
+          "timestamp": "2026-09-15T20:26:20-07:00",
+          "tree_id": "1c2ace58d87e6b973eef9b585eb2ddb8a778c485",
+          "url": "https://github.com/philgweber/odp-embedded-controller/commit/302c8648b5fcb251997ceddc71fd69fb9c9a68cf"
+        },
+        "date": 1789529274160,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
