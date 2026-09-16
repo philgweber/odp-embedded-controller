@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789529305280,
+  "lastUpdate": 1789529456340,
   "repoUrl": "https://github.com/philgweber/odp-embedded-controller",
   "entries": {
     "dev-npcx": [
@@ -2187,6 +2187,36 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/philgweber/odp-embedded-controller/commit/302c8648b5fcb251997ceddc71fd69fb9c9a68cf"
         },
         "date": 1789529274160,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Binary Size",
+            "value": 70.99,
+            "unit": "KiB",
+            "extra": "RAM Size: 14.00 KiB\nDependency Count: 334\nVersion: rustc 1.98.1 (48a229cea 2026-09-01)"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "philweber@microsoft.com",
+            "name": "philgweber",
+            "username": "philgweber"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "074cc85629e8bffe0dc21a642a4a5fab49a06b4e",
+          "message": "Merge branch 'main' into main",
+          "timestamp": "2026-09-15T20:29:49-07:00",
+          "tree_id": "037ec76ea89c39dd1a9a9e6d89a3571f3bf10436",
+          "url": "https://github.com/philgweber/odp-embedded-controller/commit/074cc85629e8bffe0dc21a642a4a5fab49a06b4e"
+        },
+        "date": 1789529454774,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
