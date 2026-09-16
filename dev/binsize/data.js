@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789530375846,
+  "lastUpdate": 1789530383451,
   "repoUrl": "https://github.com/philgweber/odp-embedded-controller",
   "entries": {
     "dev-npcx": [
@@ -1705,6 +1705,36 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/philgweber/odp-embedded-controller/commit/997cafdbb1925784612921ec20bbbe4b0b088cd8"
         },
         "date": 1789530167147,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Binary Size",
+            "value": 58.5,
+            "unit": "KiB",
+            "extra": "RAM Size: 8.62 KiB\nDependency Count: 335\nVersion: rustc 1.98.1 (48a229cea 2026-09-01)"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pgweber.mail@gmail.com",
+            "name": "pgweber",
+            "username": "pgweber"
+          },
+          "committer": {
+            "email": "pgweber.mail@gmail.com",
+            "name": "pgweber",
+            "username": "pgweber"
+          },
+          "distinct": true,
+          "id": "b87c2562fa6f2e3b514c7fa96438e561d9b9e920",
+          "message": "Cleaned up headers on the HUTRR docs",
+          "timestamp": "2026-09-15T20:44:54-07:00",
+          "tree_id": "2d76fd3696bcee2fd50954d84f24816b278609f5",
+          "url": "https://github.com/philgweber/odp-embedded-controller/commit/b87c2562fa6f2e3b514c7fa96438e561d9b9e920"
+        },
+        "date": 1789530382678,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
