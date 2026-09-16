@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788018959715,
+  "lastUpdate": 1789528200264,
   "repoUrl": "https://github.com/philgweber/odp-embedded-controller",
   "entries": {
     "dev-npcx": [
@@ -720,6 +720,36 @@ window.BENCHMARK_DATA = {
             "value": 54.7,
             "unit": "KiB",
             "extra": "RAM Size: 5.10 KiB\nDependency Count: 319\nVersion: rustc 1.98.0 (88d9e12ae 2026-08-18)"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "philweber@microsoft.com",
+            "name": "philgweber",
+            "username": "philgweber"
+          },
+          "committer": {
+            "email": "philweber@microsoft.com",
+            "name": "philgweber",
+            "username": "philgweber"
+          },
+          "distinct": true,
+          "id": "a39b80c477cfb788d64bba0b7f8fdbbf52052849",
+          "message": "Add mermaid support",
+          "timestamp": "2026-09-15T20:05:55-07:00",
+          "tree_id": "df523459eb194a0c7992c4c2f463502ac33ab009",
+          "url": "https://github.com/philgweber/odp-embedded-controller/commit/a39b80c477cfb788d64bba0b7f8fdbbf52052849"
+        },
+        "date": 1789528199314,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Binary Size",
+            "value": 54.71,
+            "unit": "KiB",
+            "extra": "RAM Size: 5.10 KiB\nDependency Count: 319\nVersion: rustc 1.98.1 (48a229cea 2026-09-01)"
           }
         ]
       }
